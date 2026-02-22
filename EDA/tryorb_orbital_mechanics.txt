@@ -1,0 +1,1080 @@
+GLOSSARY for Orbital Mechanics: 
+Companion to forthcoming 
+
+"Discovering Orbits" 
+A B C D E F G H I J K L M 
+
+N O P Q R S T U V W x y z 
+
+-A- 
+
+Acceleration signifies the change in the rate of speed.  Gravitational 
+attractors in the solar system have well-known masses and satellites 
+have negligible mass, so it's often convenient to disregard the mass 
+components when dealing with gravitational forces.  The metric 
+units for acceleration are kiloms per second-squared.  ( km / sec2 ) 
+
+AGA is an acronym for Adjusted Graphic Angle.  The AGA is the angle 
+between the minRAY and the spacecraft.  It uses the geometric 
+center of orbit for the its origin or angular fulcrum. 
+
+Altitude is the shortest distance from the spacecraft to earth or lunar 
+surface. 
+
+Angles depict the sweeping motion around a central origin.  Orbital 
+mechanics parse angles in the counter-clockwise direction from the 
+minRAY point of orbit.  Angles are then measured in degrees, where 
+360° makes a full circle. 
+
+Angular momentum measures the area swept by the satellite's current 
+radius around its gravity center.  Momentum for orbital mechanics 
+has units of kiloms per second-squared.  ( km / sec2 ) 
+
+Anomaly is the astronomer's term for angle.  In nonastronomical 
+parlance, anomaly means quirk or strange or unexpected. 
+
+ 
+
+Aphelion marks a satellite's far-point of orbit around the sun. 
+
+Apoasis marks a satellite's far-point of orbit around a gravitational 
+attractor. 
+
+Apogee marks a satellite's far-point of orbit around the earth. 
+
+Asteroids are smaller than planets and often called planetoids.  A 
+majority of the larger asteroids are found between the orbits of Mars 
+and Jupiter. 
+
+AU is the acronym for Astronomical Unit or average distance between 
+earth and sun. 
+
+Autumnal Equinox is the moment of equal daylight and darkness at 
+the end of summer.  At this time the earth is passing into the psign 
+Seeing in its orbit around the sun. 
+
+Average Speed marks the rate of distance covered during a full orbit.  
+In other words, the average speed is the orbit's perimeter divided by 
+its period.  It has units of kiloms per second.  ( km / sec ) 
+
+Away angle refers to spacecraft in LEO traveling toward a lunar 
+capture.  The away angle represents the diversionary path away 
+from the straight line between earth and moon. 
+
+Azimuth marks an object's horizontal direction.  The azimuth angle 
+sweeps clockwise from zero degrees north.  90° points east; 180° 
+points south, and 270° points west. 
+
+Index. 
+
+-B- 
+
+BAL is short-form for Balance, which marks the 180° (-180°) angle from 
+the minRAY point.  With old-style clocks, BAL points to the six 
+o'clock position.  See minRAY. 
+
+Bode's Law is a formula that calculates the average distances of 
+planetary orbits from closest to furthest away from the sun.  The 
+
+ 
+
+formula uses a variation of the binomial power expansion: 20, 21, 22, 
+23, 24 ... 
+
+BTH is short-form for Breathing, which marks the 330° (-30°) angle 
+from the minRAY point.  With old-style clocks, BTH points to the one 
+o'clock position.  See minRAY. 
+
+Index. 
+
+-C- 
+
+Cartesian (x, y) coordinate system is a rectangular based reference 
+which the origin signifies (0, 0) and positive X-values extend to the 
+right of the origin, and positive Y-values extend upwards from the 
+origin.  Negative values from X and Y extend left and down 
+respectively. 
+
+Celestial equator is the imaginary great circle around the earth, which 
+lies on level with the earth's orbit around the sun i.e. the plane of the 
+ecliptic. 
+
+Celsius scale is a measurement of temperature where 0° Celsius equals 
+the freezing point of water and 100° Celsius equals the boiling point 
+of water.  20° Celsius is comfortable; 30° Celsius of balmy hot; 10° 
+Celsius is chilly cool. 
+
+Center of gravity is the gravitational center of a massive object, such as 
+a star or planet.  Center of gravity represents the origin (the prime 
+focus point) of an orbiting satellite.  By ignoring gravitational 
+influences from other massive objects, you may simplify orbital 
+calculations to the "Two-Body" problem, which is relatively simple. 
+
+NOTE: All calculations in Discovering Orbits and/or TryOrbit 
+Lunar assume the earth or moon are perfectly spherical with a 
+homogeneous distribution of mass therein. 
+
+   
+
+Centrifugal Force pushes against outer frame of a spinning disk.  
+Centrifugal force acts away from the center of spin. 
+
+ 
+
+Centripetal force counterbalances the speed of a spacecraft, which 
+wants to continue moving in a straight line.  Centripetal force acts 
+toward the gravitational attractor. 
+
+Cislunar signifies the volume in and around the sun-moon system. 
+
+Combined Speed refers to noncircular orbits where the satellite's 
+speed has two components: Dynamic Circular Speed (DCS) and 
+Dynamic Stretch Speed (DSS).  The ratios of DCS and DSS vary during 
+the course of an orbit. 
+
+Comets originate in the outer solar system and fall towards the sun 
+where they move rapidly, making sharp U-turns, before they retreat 
+back to whence they came.  Comets consist of significant portions of 
+frozen waterlike volatiles that heat up and vaporize as the comets 
+near the sun.  This phenomenon creates spectacular comet tails for 
+observers on earth. 
+
+Constellations signify special groups of stars which have been given 
+fanciful names by skywatchers thousands of years ago.  
+Constellations may also refer to groups of satellites that orbit in a 
+complex pattern or in staggered fashion along the self-same orbital 
+path. 
+
+Coordinate systems are of two kinds: the Cartesian coordinate system 
+and the polar coordinate system.  Each system will nail down an 
+object in two- or three-dimensional space.  Polar spherical 
+coordinates are more familiar to folks.  3-D positions coincide with 
+angular values on two perpendicular great circles, plus a distance 
+from the origin to the direction implied.  Orbital mechanics find (X, Y, 
+Z) spherical coordinates are easier to manipulate, but the values 
+rendered are more difficult to grasp. 
+
+Coriolis effect arises from a spinning environment.  The faster the spin, 
+the more pronounced the effect.  The earth spins very slow, once 
+around every 24 hours, hence the effect is barely noticeable.  
+Hurricanes spin clockwise in the northern hemisphere, and they spin 
+
+ 
+
+counter-clockwise in the southern hemisphere.  Undisturbed water 
+going down a drain will create a clockwise vortex in the northern 
+hemisphere and a counterclockwise vortex in the southern 
+hemisphere. 
+
+Space stations that spin to simulate gravity will experience more 
+pronounced Coriolis effects if the period of spin is less than a minute.  
+Someone who has never thrown a curve ball will find the trajectories 
+of normal throws curving like crazy.  Even cats will have to adapt to 
+novel conditions before they can land on their feet. 
+
+Coriolis force derives from the Coriolis effect.  See Coriolis effect. 
+
+COS is short-form for cosine, which functions only for right triangles 
+where the hypotenuse equals one.  The cosine of an angle is the ratio 
+of the X-side over the hypotenuse. 
+
+Cosmic rays are highly charged elemental particles arriving from deep 
+space.  Cosmic rays are unhealthy for biological species, but the rays 
+arrive too infrequently to cause undue concern. 
+
+CRD is short-form for Coordinating, which is the 240° (-120°) angle 
+from the minRAY point.  With old-style clocks, CRD points to the four 
+o'clock position. 
+
+Index. 
+
+-D- 
+
+Day length is the time elapsed from midnight to midnight—how we 
+normally reckon a day.  Astronomers call this the mean solar day, 
+which is how days are counted in Discovering Orbits.  However, in the 
+Show-Picture window of TryOrbit Lunar, the radial lines drawn 
+inside the earth signify sidereal time.  The mean solar day is longer 
+than one rotation of earth (or sidereal day) because the earth travels 
+on its orbit (as it rotates) and faces the sun at an advanced angle.  
+Thus the earth must rotate a small amount extra to catch the sun at 
+sunrise. 
+
+ 
+
+• Sidereal day in mean solar time  =  23h/ 56m/ 4.09s 
+• Mean solar day in sidereal time  =  24h/ 3m/ 56.56s 
+
+DCS is an acronym for Dynamic Circular Speed.  DCS is a speed 
+component 90° to the current radius of the satellite in the direction 
+the satellite is orbiting.  If DCS signifies 100% of the orbiting speed, 
+the orbit will be circular.  See Diagram. 
+
+Deceleration marks the slowing down of a speeding object.  Its units 
+are negative km / sec2. 
+
+Degree is a unit of angular measure.  360° represents a full circle. 
+
+Delta-V is the energy required to change a spacecraft onto a new orbit.  
+Delta-V also represents the energy required to lift off from earth or 
+moon and achieve orbital speed.  Delta-V has the following units: 
+kiloms-squared /over/ seconds-squared.   (km2 / sec2 )  For minor 
+accelerations or decelerations, orbital mechanics may use meters-
+squared /over/ seconds-squared.  (m2 / sec2 ) 
+
+diameter is the straight-line that passes through the center of a circle 
+and extends from edge to edge.  For ellipses, the diameter length will 
+vary depending on where the diameter is drawn. 
+
+dimensions apply to geometric environments.  A point has no 
+dimensions.  A line has one dimension.  A plane has two dimensions.  
+A volume or space has three dimensions.  Spacetime has four 
+dimensions.  Fortunately, orbits occupy two dimensions only, which 
+simplify many problems of orbital mechanics. 
+
+Diurnal motion covers the observed travel of a satellite or planet over 
+a 24-hour period. 
+
+DSS is an acronym for Dynamic Stretch Speed.  DSS is the speed 
+component that causes circular orbits to stretch into elliptic orbits.  
+DSS extends along the current radius of a satellite either inward or 
+outward from the gravitational center of attraction.  See Diagram. 
+
+Dynamic means motion or changeable activity. 
+
+ 
+
+Index. 
+
+-E- 
+
+Earth is the 3rd-planet of the solar system. 
+• Earth has a radius of 6378.15 kiloms. 
+• Earth masses at —>  597 * 1022 kilograms.  Where 1022 kilograms 
+
+equals the mass of 377-billion Three Gorges Dams, the heftiest 
+structure built by humans to date. 
+
+• Earth's majA distance from the sun  =  one AU. 
+• Earth's mean orbiting speed  =  29.785 km/sec 
+
+Eccentric anomaly is an intermediary angle sweeping from the 
+geometric center of orbit.  Discovering Orbits uses the term midE 
+angle for the eccentric anomaly.  See midE angle. 
+
+Eccentricity gauges the elliptic stretch of an orbit.  Discovering Orbits 
+uses the term Exp (expander) for the eccentricity.  See Exp. 
+
+Ecliptic is the plane of earth's orbit around the sun. 
+
+Ellipses are the locus of points on a plane where sum of distances from 
+a satellite to each focus point returns a constant value.  An ellipse 
+includes circular orbits as well as elongated cometary orbits.  The 
+algebraic formula for an ellipse is...  (x/a)2  +  (y/b)2   =   one 
+
+Elliptic theorem states that  A2  =  B2  +  C2.  This is a classic right 
+triangle where 
+•  A  =  majA (semi-major axis); 
+•  B  =  minB (semi-minor axis); 
+•  C  =  hfdC (half of the distance between focal points). 
+
+Energy moves an object from its inertial state.  The energy of orbit is 
+proportional to the majA of orbit.  Energy has units of kiloms-
+squared /over/ seconds-squared.  ( km2 / sec2 ) 
+
+Equatorial orbit means a satellite tracks above the earth's equator and 
+stays on the equatorial plane. 
+
+ 
+
+Equatorial plane is a great circle that extends as far as needed on the 
+plane of the earth's equator. 
+
+Exp is short-form for Expander, which is measured from zero to almost 
+one for elliptic orbits.  The Exp equals one for parabolic flightpaths 
+and greater than one from hyperbolic flightpaths.  The Exp has no 
+units per se. 
+
+Index. 
+
+-F- 
+
+Flightpath is the tangent to the orbital arc of the satellite in the 
+direction of motion.  It is the angle between the DSS and the Speed 
+arrow. 
+
+Flightpath angle equals 90° minus the angle of the velocity vector.  For 
+geometers the flightpath angle is "complimentary" to the velocity 
+angle. 
+
+Focus points are two for every elliptic orbit.  The prime focus point is 
+the gravitational center, which lies on the major axis.  The secondary 
+focus point lies also on the major axis at an equal and opposite 
+direction from the geometric center.  For circular orbits, the focus 
+points and geometric center converge to same place. 
+
+Force equates with gravity or rocket boost.  It changes the static 
+momentum of spacecraft in orbit.  Since satellite mass is very small 
+compared to its gravitational attractor, the mass component can be 
+ignored.  The effect of force is then described in units of kiloms 
+/over/ seconds-squared. 
+
+FPA is the acronym for FlightPath Angle. 
+
+Frame-of-reference for orbital mechanics is a flat plane surrounding a 
+gravitational attractor.  The center of gravity marks the prime focus 
+point.  For some orbital calculations, it is often necessary to move the 
+origin from the geometric center of orbit to the gravitational center 
+
+ 
+
+of orbit and vice versa.  To do this, you add or subtract the hfdC to 
+the orbital parameters. 
+
+Freefloat is a term coined by John A. Wheeler.  The speed of spacecraft 
+in orbit balances the force of gravity so that astronauts feel 
+weightless.  Likewise a person falling from a tall building 
+experiences weightlessness.  If it would be possible to stand at the 
+exact center of earth, one would experience the same 
+weightlessness.  Freefloat describes the same thing a scuba diver 
+feels when he has adjusted his ballast to evoke weightlessness in 
+water. 
+
+Friction causes earthside vehicles to slow down.  Friction of the wheel 
+bearings, friction of the tires and friction of air molecules in the 
+atmosphere require constant force to maintain the speed of moving 
+vehicles, otherwise the fuel in your gas tank would stay topped-up 
+for years and years.  In outer space, friction is negligible so that a 
+spacecraft will circle earth almost indefinitely. 
+
+Index. 
+
+-G- 
+
+GEO is short-form for geosynchronous orbit—a flightpath where the 
+satellite orbits at the same speed as the earth spins.  Comsats are 
+often placed in geosynchronous orbits so that ground stations can 
+open continuous relay channels with the satellite. 
+
+Geometric center is at the center of the ellipse.  The point lies midway 
+between the elliptic focus points, if they are separated.  The 
+geometric center is the origin and fulcrum for the midE angle. 
+
+Geocentric means earth-centered.  Some telescopes include real-time 
+maps that set all planets and planetoids in the solar system to a 
+geocentric frame-of-reference, so that amateur astronomers can aim 
+automatically to their points of interest.  If humans inhabit 
+permanent colonies away from earth, the geocentric view may well 
+
+ 
+
+be replaced with other frames-of-reference. 
+
+GP is the acronym for Gravitational Parameter.  GP has been calculated 
+accurately for all major bodies of the solar system, so orbital 
+mechanics know from the speed, direction and radius of a spacecraft 
+what sort of orbit it will assume. 
+
+GPS is the acronym for Global Positioning Satellites.  Three satellites 
+triangulate transponder signals for a hiker in the outback.  In this 
+way, they can nail the hiker's location with remarkable accuracy.  
+Commercial airplane pilots use GPS to guide their aircraft through 
+the mid-portions of their flights. 
+
+Gravitational attractor is any massive body that exerts gravity and 
+causes a speeding spacecraft to curve around its attraction. 
+
+Gravitational center resides at the center of mass of the gravitational 
+attractor.  For orbiting satellites, this origin equates with the prime 
+focus point. 
+
+Gravitational parameter tells an orbital mechanic how a spacecraft 
+will react around a gravitational attractor.  Scientists believe gravity 
+acts the same anywhere in the universe.  Thus gravity is a constant 
+that varies only according to the mass of the gravitational attractor.  
+Since the masses of major bodies of the solar system have been 
+calculated to remarkable accuracy, you can ignore the amount of 
+mass in the equation and describe the gravitational parameter for 
+earth or moon in terms of volume contortion /over/ the rate of time 
+elapsed.  Thus, the gravitational parameter has units of kilometers-
+cubed /over/ seconds-squared. 
+• Mercury GP        =         21,680 km3 / sec2 
+• Venus GP           =        325,000 km3 / sec2 
+• Earth GP           =         398,600 km3 / sec2 
+• Mars GP           =            42,970 km3 / sec2 
+• Jupiter GP    =     126,700,000 km3 / sec2 
+• Saturn GP      =      37,900,000 km3 / sec2 
+• Uranus GP      =       5,790,000 km3 / sec2 
+
+ 
+
+• Neptune GP      =     6,805,000 km3 / sec2 
+
+Gravity-well is a descriptive term that illustrates how an orbiting 
+satellite has a great amount of potential energy, which must be 
+forfeited when a spacecraft deorbits to earth or lunar surface.  A 
+spacecraft in minimum earth orbit has acquired half the Delta-V 
+needed to travel anywhere in the solar system. 
+
+GVT is short-form for Gravity, which marks the 270° (-90°) angle from 
+the minRAY point.  With old-style clocks, GVT points to the three 
+o'clock position. 
+
+Index. 
+
+-H- 
+
+Hectare is a measure of area. 
+•  One hectare equals 2.471 acres. 
+•  One hectare equals 107,639.1 square feet. 
+•  One hectare equals 11,959.9 square yards. 
+•  One hectare equals 10,000 square meters. 
+•  One hectare equals .01 square kilometers. 
+
+HEO is an acronym for High Earth Orbit.  It means any orbit beyond 
+GEO.  The moon is an example of HEO as well as L4 or L5. 
+
+hfdC is short-form for half of the distance between elliptic focus points.  
+hfdC forms one of the sides of the elliptic triangle. 
+
+HRG is short-form for Hearing, which signifies the 30° (-330°) angle 
+from the minRAY point of orbit.  With old-style clocks, HRG points at 
+the eleven o'clock position. 
+
+Hypotenuse is the side of right triangle opposite the 90° angle.  It is the 
+longest side but shorter than X-side plus the Y-side.  The 
+hypotenuse-squared equals the X-side-squared plus the Y-side-
+squared. 
+•  H2  =   X2 +  Y2 
+
+ 
+
+Index. 
+
+-I- 
+
+Inclination refers to the slant of the orbital plane.  The Inclination angle 
+gauges how far the orbital plane slants away from the ecliptic or 
+earth equator. 
+
+Inertia is the crux of Newton's 1st-law of motion: A body will continue 
+in its present state of motion until an outside force acts to change it. 
+
+Interval of thrust measures the duration of rocket boost needed to 
+achieve the desired delta-V.  If the rocket boost delivers 5% of the 
+delta-V per second, astronauts will have to fire their rocket for 20 
+seconds. 
+
+Intercept angle signifies the optimal angle to approach a gravity-well.  
+If you want a spacecraft to go into quasi-circular orbit around Mars 
+or Venus, you must dip lightly into its atmosphere several times to 
+burn off the excess approach speed.  Eventually the spacecraft will 
+match the proper orbiting speed for the gravity-well.  Since the moon 
+has no atmosphere, the spacecraft can only achieve a capture orbit, 
+which will probably be highly elliptic.  Then you fire reverse 
+thrusters at the minRAY point to circularize the orbit.  If the 
+intercept angle is too steep, the spacecraft will crash into the 
+gravitational attractor.  If the intercept angle is too wide, the 
+spacecraft will hook around the gravity-well and zoom off elsewhere. 
+
+Index. 
+
+-J- 
+
+Jupiter is the 5th-planet of the solar system. 
+• Jupiter radius  =  71,398 kiloms. 
+• Jupiter masses at —>  190,000 * 1022 kilograms.  Where 1022 
+
+kilograms equals the mass of 377-billion Three Gorges Dams, the 
+heftiest structure built by humans to date. 
+
+ 
+
+• Jupiter majA distance from the sun = 5.203 AU. 
+• Jupiter mean orbiting speed  =  13 kiloms / second. 
+
+Index. 
+
+-K- 
+
+Kilogram is a unit mass that equals 2.2 pounds, like hefting a quart of 
+milk. 
+• One kilogram equals 1,000 grams. 
+• 1,000 kilograms equal one metric tonne. 
+
+Kilom(s) is short-form for kilometer(s). 
+
+Kinetic is the dynamic form of energy.  Gas in a vehicle's tank 
+represents potential energy.  When it's burned, it transforms into 
+kinetic energy which sets the vehicle in motion. 
+
+Index. 
+
+-L- 
+
+Latitude represents the spherical angle away from the earth's equator.  
+North or positive latitude signifies the angle north of the equator.  
+South or negative latitude signifies the angle south of the equator.  
+Astronomers use latitude as one of the great circles that pinpoint 
+objects in space. 
+
+Launch module is the wherewithal needed to launch a spacecraft or 
+satellite into orbit.  The launch module contains the protective outer 
+skin, the rocket motor, the fuel stocks and the payload capsule. 
+
+LEO is an acronym for Low Earth Orbit.  LEO orbits range from 250 
+kiloms in altitude to 800 kiloms in altitude.  In this way, the 
+spacecraft is protected from solar radiation inside earth's ionic belt. 
+
+Libration means back and forth motion due to the earth's wobble on its 
+axis. 
+
+ 
+
+Longitude is the spherical angle east or west from the Greenwich prime 
+meridian.  Astronomers describe longitude as right ascension and 
+use it as one of the great circles that pinpoint objects in space.  Right 
+ascension is measured in 360° and represents a spacial framework 
+of sidereal time. 
+
+Index. 
+
+-M- 
+
+Main Windows for TryOrbit Lunar are: 
+• Show-Picture Window (satellite in animation) 
+• Results Window (Orbital Data) 
+• Speed-Graph Window (two views) 
+
+majA is short-form for semi-major axis, which is half the of the longest 
+diameter of the orbital ellipse. 
+
+Mars is the 4th-planet of the solar system. 
+• Mars radius  =  3,380 kiloms. 
+• Mars masses at —>  64 * 1022 kilograms.  Where 1022 kilograms 
+
+equals the mass of 377-billion Three Gorges Dams, the heftiest 
+structure built by humans to date. 
+
+• Mars majA distance from sun  =  1.524 AU. 
+
+Maximum Altitude of an orbit occur at the maxRAY point. 
+
+Maximum orbiting speed occurs at the minRAY point. 
+
+Mass measures an object size and density.  Whereas weight gauges an 
+object's heft in earth's gravity, the same object will seem weightless 
+in the freefloat environment.  Mass remains the same no matter how 
+strong gravity is.  To change an object's inertia will require 
+substantial force, even in weightless conditions. 
+
+maxRAY signifies the longest radius of an elliptic orbit. 
+
+Mean Anomaly represents the 360° angle of orbital period.  Discovering 
+Orbits calls the mean anomaly the TIME angle.  See TIME Angle. 
+
+ 
+
+Mercury is the 1st-planet of the solar system. 
+• Mercury radius  =  2,439 kiloms. 
+• Mercury masses at  —>  33 * 1022 kilograms.  Where 1022 
+
+kilograms equals the mass of 377-billion Three Gorges Dams, the 
+heftiest structure built by humans to date. 
+
+• Mercury majA distance from the sun  =  .387 AU. 
+
+midE Angle is measured from the origin of the geometric center of 
+orbit.  It sketches a circle of radius majA and meets the actual orbital 
+path at two places: minRAY and maxRAY.  The midE angle is the go-
+between the TIME angle and the POSITION angle. 
+
+minB is short-form for semi-minor axis, which is half the length of the 
+shortest diameter of the orbital ellipse. 
+
+Minimum Altitude of an orbit occurs at the minRAY point. 
+
+Minimum orbiting speed occurs at the maxRAY or far-point of orbit. 
+
+minRAY is the minimum radius of orbit.  It occurs at zero degrees of the 
+POSITION, midE and TIME angles.  The minRAY crossing signals the 
+end of one orbital cycle and the beginning of the next. 
+
+Moon's orbiting speed is 1.0183 kiloms per second on average.  It 
+varies as much as 5% from norm, depending its POSITION of orbit 
+and distance from earth. 
+
+MOV is short-form for Moving, which marks the 300° (-60°) angle from 
+the minRAY point.  With old-style clocks, MOV points to the two 
+o'clock position. 
+
+Index. 
+
+-N- 
+
+Neptune is the 8th-planet of the solar system. 
+• Neptune radius  =  24,300 kiloms. 
+• Neptune masses at —>  10,200 * 1022 kilograms.  Where 1022 
+
+kilograms equals the mass of 377-billion Three Gorges Dams, the 
+
+ 
+
+heftiest structure built by humans to date. 
+• Neptune majA distance from the sun  =  30.11 AU. 
+
+Newton’s 1st-law of motion: Objects stay in their inertial state unless 
+acted upon by an outside force.  A body at rest will stay at rest.  A 
+body in motion will stay in motion on its present course. 
+
+Newton's 2nd-law of motion: An object's momentum changes in 
+proportion to the force acting on it.  Orbital momentum is expressed 
+in units of kilograms times kiloms-squared per second.  (kg * km2 / 
+sec) 
+
+NOTE: TryOrbit Lunar uses 100 hectares in place of one kilom-
+squared. 
+
+Newton's 3rd-law of motion: Every action as an equal and opposite 
+reaction.  Combustive fuel that is pushed out of the rear of a 
+spacecraft propels the spacecraft forward in directly proportion to 
+the mass of the fuel and the speed of its exit. 
+
+Index. 
+
+-O- 
+
+Oblate earth means the earth isn't a perfect sphere.  Earth is flattened 
+at the poles and resembles an ellipsoid.  This means that gravity 
+pulls somewhat less for satellites that pass over the poles compared 
+to satellites that track along earth's equator.  Discovering Orbits 
+assumes the earth is a perfect sphere and doesn't take into account 
+the subtle perturbations due to earth's gravitational anomalies.  All 
+orbits made with TryOrbit Lunar are only accurate for about ten to 
+fifteen days beyond their initial parametric constraints.  Nonetheless, 
+you will gain a good ballpark estimate of how orbits behave, given 
+their initial parameters.  In fact, Discovering Orbits will give you 
+better orbital know-how than many sci-fi authors who fudge the 
+known laws of physics. 
+
+Operators act on the parameters of algebraic equations.  The most 
+
+ 
+
+common operators are add, subtract, multiply and divide.  Throw in 
+elementary trig functions, and you have all the math operators you 
+need to understand rocket science in theory and practice.  
+Discovering Orbits uses the following symbols: 
+• The symbol  *  means multiply. 
+• The symbol  +  means add. 
+• The symbol  -  means subtract. 
+• The symbol  /  means divide. 
+• The symbols  (  )  mean do the calculations inside before doing 
+
+the calculations outside.  For example, the expression  3 * (2 + 2)  
+means add two & two and then multiply by 3, which equals 12, 
+which proves a sasquatch has more toes than you do. 
+
+Orbits are the closest natural phenomena to perpetual motion.  Once 
+satellites are lofted into stable orbits, they keep going around 
+without assistance. 
+
+Orbiting energy is directly proportional to the majA of orbit.  The 
+larger the majA, the slower the orbiting speed, and the greater the 
+energy of orbit.  The more area enclosed within an orbital track, the 
+greater portion of the energy is potential.  Think of the bicycle rider 
+who has huffed and puffed up a steep hill.  He or she sits at the 
+summit and looks forward to enjoying the gift of potential energy on 
+the way down. 
+
+Orbital mechanics marks the way to maneuver a spacecraft to best 
+effect, to accomplish a mission in the least time with the least fuel 
+expended.  After you read through Discovering Orbits you will 
+become a competent orbital mechanic. 
+
+Index. 
+
+-P- 
+
+Parabolic curves mark spacecraft with minimum escape speed from 
+their local gravity-well.  Some comets come close to resembling 
+
+ 
+
+parabolic flightpaths.  After their close encounter with sun, they 
+return to the outer solar system way beyond the orbit of Neptune.  
+Some of them won't return to inner solar system for thousands of 
+years.  A parabolic flightpath has a Exp value equal to one.  A 
+spacecraft on collision course toward a gravitational attractor also 
+has a Exp value of one.  You need common sense to distinguish one 
+from the other. 
+
+Parameters are variable numeric values that turn general equations 
+into specific instances returning specific results.  If a percentage of 
+your income goes to the taxman, you have to make do with whatever 
+remaining income remains at hand.  Suppose we introduce a new 
+parameter, such as a winning ticket in the lottery.  You spending 
+plans will suddenly find many new opportunities.  Orbital equations 
+work the same way.  If you set generous initial parameters, you will 
+have more choices of flightpaths that will fulfill your mission. 
+
+Parking orbit means a roughly circular orbit around a gravitational 
+attractor.  A parking orbit has a modest altitude enabling a possible 
+deorbit to the attractor's surface.  Likewise, the spacecraft retains 
+enough potential energy to facilitate an escape from the gravity-well 
+if such action is desired. 
+
+Payload includes all parts of the launch module the makes it into orbit.  
+It includes the electronic package, the solar collector wings, the 
+antenna, the spacecraft protective shell, maneuvering rockets and 
+reserve fuel, extra shielding for sensitive science packages and 
+occasionally the upper stage of the launch booster. 
+
+Periapsis marks the minRAY point or shortest altitude of orbit. 
+
+Perigee marks the closest approach of an orbit around earth. 
+
+Perihelion signifies the shortest radius of an orbit around the sun. 
+
+Period represents the time span of one complete orbit.  It equates with 
+360° of the TIME angle.  The period has units of seconds. 
+
+The period equals 2 * PI * SQR( majA * majA  * majA / GP ) 
+
+ 
+
+Where * means multiply by 
+and SQR means "Take the Square Root of." 
+
+Perpendicular means at 90° to a line or plane. 
+
+Perturbations represent 3rd-party intrusions on an orbital path.  They 
+included the nonspherical composition of earth, the gravitational 
+effects of the sun, moon and Jupiter for earth-based orbits.  For lunar 
+orbits add the gravitational tides of earth. 
+
+PI is a natural constant  =  3.141592653589793238462643383279… 
+
+Polar coordinates consist of planar or spherical angles and the radius of 
+the spacecraft. 
+
+POSITION angle advances rapidly near the minRAY and slowly near the 
+maxRAY.  It has its origin and fulcrum at the gravitational center of 
+orbit.  The POSITION angle sweeps out equal areas in equal times. 
+
+Pythagoras is the so-called originator of the right-angle theorem on 
+which trigonometry is based.  However, evidence suggests Egyptian 
+surveyor-astrologers understood the right-angle theorem 1,000 years 
+before Pythagoras was born.  For any right triangle, the longest side is 
+called the hypotenuse opposite the 90° angle.  The hypotenuse-
+squared equals the X-side-squared plus the Y-side-squared. 
+• H2  =   X2 +  Y2 
+
+Index. 
+
+-Q- 
+
+Quadrants divide the 360° circle into four equal parts.  The 1st-quadrant 
+includes angles from zero to 90° (x-positive, y-positive).  The 2nd-
+quandrant includes angles from 90° to 180° (x-negative, y-positive).  
+The 3rd-quadrant includes angles from 180° to 270° (x-negative, y-
+negative).  The 4th-quadrant includes angles from 270° to 360° (x-
+positive, y-negative). 
+
+Queue overflow occurs in TryOrbit Lunar when more than 2,047 orbits 
+
+ 
+
+are loaded in a current session.  TryOrbit Lunar will automatically 
+save these to the default file. 
+
+NOTE: If you use TryOrbit Lunar with 64-bit Windows systems, 
+Windows may not let you save custom orbits to disk.  If it does, you 
+will only have access to one file called Userorb.d06.  Userorb.d06 has 
+a capacity much larger than 2,047, but it is NOT unlimited.  If you fill 
+the file to capacity, it will no longer accept custom orbits. 
+
+Index. 
+
+-R- 
+
+Radian angles are those measured in 2 * PI radians instead of 360°.  To 
+convert degrees to radians multiply by PI / 180.  To convert radians 
+into degrees multiply by 180 / PI.  Digital trigonometry is best done 
+with radian angles.  Then you convert the answers back to degrees. 
+
+Radius is the distance from the satellite to the gravitational center.  For 
+elliptic orbits, the radius will change for different positions in the 
+orbit. 
+
+Radial velocity is the same thing as the DSS component.  See DSS. 
+
+Retrograde motion is the side effect of observing celestial bodies from a 
+moving, spinning earth.  There are times when observers on earth 
+will see planets and/or earth-based satellites apparently moving 
+backward or retrograde.  This backtracking is an optical illusion.  
+Satellites or planets do NOT reverse direction, they merely appear to 
+do so, because they are tracking slower than earth's spin or orbital 
+motion. 
+
+Right-angle theorem works for all triangles in which one corner forms a 
+90° angle.  The side opposite the 90° angle is the longest side and is 
+called the hypotenuse.  For convenience, trigonometric tables put the 
+hypotenuse at one unit of length.  Then the theorem holds that the X-
+side-squared equals the Y-side-squared equals the hypotenuse-
+squared. 
+
+ 
+
+•  X2  +  Y2  =  12  or  one. 
+
+Right ascension is an astronomical term for longitude.  Right ascension 
+is both directional and time dependent.  By using sidereal tables, the 
+astronomer can orient himself or herself at the point of interest in 
+the night sky. 
+
+Index. 
+
+-S- 
+
+SAM is the acronym for Static Angular Momentum.  SAM is a constant 
+for all orbits.  SAM is similar but not the same as energy of orbit.  It 
+has units of kiloms-squared per second. 
+
+Satellites orbit around gravitational attractors, their rotational 
+momentum matching the inward pulls of the gravity-wells.  The 
+flightpath of a satellite is inertial.  It continues to follow the laws of 
+orbital dynamics until an external force is exerted, such as the firing 
+of rocket engines or the drag of atmospheric friction. 
+
+Saturn is 6th-planet of the solar system. 
+• Saturn radius  =  60,369 kiloms. 
+• Saturn masses at —> 56,800 * 1022 kilograms.  Where 1022 
+
+kilograms equals the mass of 377-billion Three Gorges Dams, the 
+heftiest structure built by humans to date. 
+
+• Saturn majA distance from the sun  =  9.555 AU. 
+
+SEE is short-form for Seeing, which marks the zero (360°) angle for the 
+minRAY point.  With old-style clocks, SEE points to the twelve o'clock 
+position. 
+
+semP is short-form for semi-parameter.  The semP is the radius line 
+from the gravitational center straight up to the satellite's orbital 
+path. 
+
+Sidereal day is the length of time for the earth to rotate on its axis.  
+Astronomers call this "right ascension."  The sidereal day is 
+
+ 
+
+somewhat less than the mean solar day that we use to denote day 
+lengths. 
+• Sidereal day in mean solar time  =  23h/ 56m/ 4.09s 
+• Mean solar day in sidereal time  =  24h/ 3m/ 56.56s 
+
+SIN is the acronym for sine, which functions only for right triangles 
+where the hypotenuse equals one.  The sine of an angle is the ratio of 
+the Y-side over the hypotenuse. 
+
+SML is short-form for Smell, which marks the 60° (-300°) angle from the 
+minRAY.  With old-style clocks, SML points to the ten o'clock 
+position. 
+
+Solar rays are charged particles (X-rays) blown off from the sun's 
+fusion furnace.  Solar rays are dangerous to human health.  
+Fortunately, the earth's magnetic shield blocks most of the solar rays 
+from reaching the biosphere where we live.  However, solar rays can 
+be hazardous to folks who live and work in outer space.  Protective 
+shielding is recommended for off-earth habitats. 
+
+Solar sails use light pressure in the same way as sailing ships use wind 
+for propulsion.  Because solar-sail craft require little or no fuel, they 
+are excellent choices for long-range travel in the solar system.  They 
+have few moving parts, so they might be the most reliable and 
+durable spacecraft in the universe.  Solar-sail craft need extra time to 
+get up to speed.  Once they start cruising, their ETAs compare 
+favorably with rocket-powered craft.  Solar sails have one big 
+disadvantage.  They are next to useless when they venture deep into 
+gravity-wells.  It takes them months to crawl out LEO, but at HEO 
+orbits they can gain near-escape speeds within days or weeks. 
+
+Solstices are the longest and shortest days of the year.  The most 
+daylight happens around June 21st, and least daylight happens 
+around December 21st. 
+
+Spacecraft is any fabricated craft that is launched above earth's 
+atmosphere.  If the spacecraft settles into orbit, it becomes a satellite 
+
+ 
+
+of earth.  If it escapes earth's gravity-well, it becomes a probe of the 
+solar system.  If it journeys outside the solar system, it becomes an 
+inter-stellar probe.  The spacecraft may or may not carry humans 
+onboard. 
+
+Spring equinox signals the time of equal daylight and darkness.  It is 
+often called the vernal equinox.  The spring equinox occurs at the 
+moment the earth enters the psign BAL or 180° from the minRAY 
+point. 
+
+SPS is the acronym for Solar-Powered Satellite.  75 years ago, Nikola 
+Tesla envisioned an era of cheap and clean energy, when solar 
+collectors in geosynchronous orbit would beam microwaves to earth 
+and thereby power the world's electric grid.  So far, no government 
+has had the gumption to make this dream a reality. 
+
+SQR is short-form for "take the square root of."  SQR is a mathematical 
+operator.  It means calculate the numerical root, which when 
+multiplied by itself, returns the original number.   
+
+Sun is our luminous star.  It contains a lion's share of the mass in the 
+solar system.  The sun orbits around the gravitational center of the 
+Milky Way galaxy and takes all objects of the solar system in its train. 
+
+Index. 
+
+-T- 
+
+TAN is short-form for tangent, which functions only for right triangles 
+where the hypotenuse equals one.  The tangent of an angle equals 
+the ratio of the Y-side over the X-side.  ( Y / X ) 
+
+Tangential velocity means the same thing as the DCS component.  See 
+DCS. 
+
+TCH is short-form for Touch, which marks the 150° (-210°) angle from 
+the minRAY point.  With old-style clocks, TCH points to the seven 
+o'clock position. 
+
+ 
+
+Thrust is combustive fuel that is jettisoned by a spacecraft.  The 
+exhaust from the fuel powers a spacecraft forward in the opposite 
+direction from which the exhaust expels. 
+
+TIME angle sweeps 360° in synch with an orbit's period.  For 
+geosynchronous orbits, one degree of the TIME angle equals about 
+four minutes gone by on your watch.  Most orbits have periods far 
+less or greater than a day.  The degrees of the TIME angle adjust to 
+whatever orbital period you may wish to examine. 
+
+Trigonometry is based on the right-angle theorem.  You don't need to 
+futz around with vectors or matrices.  Just use the right-angle 
+theorem and a morsel of common sense.  This simple equation 
+produces tables that match angular values to triangular side ratios.  
+Most computer systems offer a calculator applet that produces sine, 
+cosine and tangent ratios for almost any angle imaginable.  When 
+minimal parameters are known, trigonometry lets you find the 
+unknowns of a triangle or other geometric objects.  Moreover, trig 
+functions work in three dimensions almost as well as they work in 
+two dimensions.  See Quadrants. 
+
+True anomaly means the same thing as POSITION angle.  See POSITION 
+angle. 
+
+TST is short-form for Taste, which marks the 120° (-240°) angle from 
+the minRAY point.  With old-style clocks, TST points to the eight 
+o'clock position. 
+
+Turning angle results when a free-wheeling spacecraft encounters 
+gravity-well.  Three things can happen. 
+• The spacecraft skims the gravity-well enough for the attractor to   
+
+capture it.  Then the spacecraft becomes a satellite in orbit 
+around the gravity-well 
+
+• The spacecraft dives too deeply into the gravity-well and crashes 
+into the massive attractor. 
+
+• The spacecraft skims the gravity-well, but the attractor cannot 
+capture it because the spacecraft is going too fast.  In effect, the 
+
+ 
+
+spacecraft makes a hyperbolic flyby during which the attractor 
+changes the spacecraft's directional flightpath.  In other words, 
+the spacecraft acquires the attractor's orbiting speed as it exits 
+the system, although its intrinsic speed remains unchanged, 
+going in and going out.  This change of direction is called the 
+turning angle. 
+
+Index. 
+
+-U- 
+
+Units are a very important check on the accuracy of your calculations.  
+As you crunch the numbers, do the same for the units.  You should 
+end up with distances expressed in kiloms, speeds expressed in 
+kiloms per second and parameters like Exp expressed in no units at 
+all.  If the units match up correctly, you know you have used the right 
+equations.  If there are still errors, they must be errors of arithmetic. 
+
+Uranus is the 7th-planet of the solar system. 
+• Uranus radius  =  25,400 kiloms. 
+• Uranus masses at —>  8,670 * 1022 kilograms.  Where 1022 
+
+kilograms equals the mass of 377-billion Three Gorges Dams, the 
+heftiest structure built by humans to date. 
+
+• Uranus majA distance from the sun  =  19.218 AU. 
+
+URG is short-form for Urgency, which marks the 90° (-270°) angle from 
+the minRAY point.  With old-style clocks, URG points to the nine 
+o'clock position. 
+
+Index. 
+
+-V- 
+
+Van Allen belt is an ionic shroud around earth, which occurs at an 
+altitude of about 1,000 kiloms.  Earth's magnetic field causes this 
+protective layer named after its discoverer. 
+
+ 
+
+Vectors are numerical values that have direction as well as magnitude, 
+even if it just means having a plus or minus sign attached.  It makes a 
+difference if your rocket exhaust points away from the gravity 
+attractor or toward it.  If you're hungry, you want to move toward 
+the refrigerator not away from it.  Direction adds real-world 
+significance to a numerical expression. 
+
+Venus is the 2nd-planet of the solar system. 
+• Venus radius  =  6,052 kiloms. 
+• Venus masses at —>  4,87 * 1022 kilograms.  Where 1022 
+
+kilograms equals the mass of 377-billion Three Gorges Dams, the 
+heftiest structure built by humans to date. 
+
+• Venus majA distance from the sun  =  .728 AU. 
+
+Index. 
+
+-W- 
+
+WRM is short-form for Warmth, which marks the 210° (-150°) angle 
+away from the minRAY point.  With old-style clocks, WRM points to 
+the five o'clock position. 
+
+ 
+
+Index. 
+
+ 
+
+ 
+
+Back. 
+
+ 
+
+ 
+
+Back. 
+
+ 
+
+ 
+
